@@ -40,6 +40,12 @@ func main() {
 		fmt.Printf("Person at %d is %s\n", i, arrKeyValue[i])
 	}
 
+	b := []byte{'g', 'o', 'l', 'a', 'n', 'g'}
+
+	fmt.Println(string(b[1:4]), b[1:4])
+	fmt.Println(string(b[:2]), b[:2])
+	fmt.Println(len(b))
+
 }
 
 func double(number *int) {
