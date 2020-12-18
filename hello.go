@@ -46,6 +46,16 @@ func main() {
 	fmt.Println(string(b[:2]), b[:2])
 	fmt.Println(len(b))
 
+	//struct类型
+	type student struct {
+		name  string
+		count int
+	}
+
+	var student1 student
+	student1.name = "Cari"
+	fmt.Println(student1.name)
+
 }
 
 func double(number *int) {
